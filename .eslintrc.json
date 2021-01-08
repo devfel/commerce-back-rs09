@@ -45,6 +45,7 @@
       }
     ]
   },
+  "endOfLine": "auto",
   "settings": {
     "import/resolver": {
       "typescript": {}

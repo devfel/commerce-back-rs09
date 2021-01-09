@@ -15,6 +15,15 @@ This is an Back-End application that allow the creation of customers, products a
 
 ---
 
+## 📝 Table of Contents
+
+- [Application Routes](#routes)
+- [Business Rules](#rules)
+- [Author](#authors)
+- [Acknowledgments](#acknowledgement)
+
+---
+
 ## 🧐 Application Routes <a name = "routes"></a>
 
 - **_POST /customers_**
@@ -22,6 +31,19 @@ This is an Back-End application that allow the creation of customers, products a
 - **_POST /products_**
 
 - **_POST /orders/_**
+
+## 💼 Business Rules <a name = "rules"></a>
+
+1. should be able to create a new customer
+1. should not be able to create a customer with one e-mail thats already registered
+1. should be able to create a new product
+1. should not be able to create a duplicated product
+1. should be able to create a new order
+1. should not be able to create an order with a invalid customer
+1. should not be able to create an order with invalid products
+1. should not be able to create an order with products with insufficient quantities
+1. should be able to subtract an product total quantity when it is ordered
+1. should be able to list one specific order
 
 ## ✍️ Author <a name = "authors"></a>
 

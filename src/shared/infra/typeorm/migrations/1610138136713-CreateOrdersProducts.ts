@@ -27,5 +27,3 @@ export default class CreateOrdersProducts1610138136713
     await queryRunner.dropTable('orders_products');
   }
 }
-
-PAREI EM 29:14
